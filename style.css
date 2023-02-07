@@ -1,0 +1,552 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap');
+
+ body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+} 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    font-family: sans-serif;
+  }
+  
+  nav {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo{
+      font-size: 2em;
+      letter-spacing: 2px;
+      color: purple;
+  }
+  .menu a{
+      text-decoration: none;
+      color: white ;
+      padding: 20px 30px;
+      font-size: 20px;
+      font-weight: bold;
+      position: relative;
+  }
+
+  .menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid purple;
+    transition: 0.4s linear;
+  }
+
+  .menu a:hover:before{
+     width: 95%;
+  }
+
+  .menu a:hover{
+    color: purple;
+  }
+
+  #main{
+     padding: 40px;
+     display: flex;
+  }
+  
+.item img{
+  width: 445px;
+  height: 645px;
+}
+
+  .item{
+    width: 455px;
+    height: 654px;
+    position: relative;
+    top: 5px;
+    left: 70px;
+    border: 5px solid purple;
+  }
+
+  .content h1{
+    position: relative;
+    bottom: 500px;
+    left: 550px;
+    color: white;
+    font-style: italic;
+    font-size: 60px;
+  }
+
+  .content h1 span{
+    color: purple;
+    font-style: italic;
+    font-size: 60px;
+  }
+
+  .content h4{
+    position: relative;
+    bottom: 500px;
+    left: 550px;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+  }
+
+  .content p{
+    position: relative;
+    bottom: 500px;
+    left: 550px;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+  }
+  
+  .content span{
+    color:purple;
+    font-size: 30px;
+  }
+
+  .content a{
+    position: relative;
+    bottom: 450px;
+    left: 550px;
+    text-decoration: none;
+    background: indianred;
+    color: white;
+    font-weight: 10px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    border-radius: 70px;
+  }
+  .content a:hover{
+    background: transparent;
+    border: 2px solid indianred;
+  }
+
+  /* about */
+  #about{
+    padding: 40px;
+    display: flex;
+    background-image: url("bg.jpg");
+ }
+ 
+.contain{
+  display: flex;
+}
+
+.item-2 img{
+  width: 445px;
+  height: 645px;
+}
+
+ .item-2{
+   width: 455px;
+   height: 654px;
+   position: relative;
+   top: 5px;
+   right: 5px;
+   border: 5px solid navy;
+ }
+
+ .content-2 h1{
+   position: relative;
+   top: 30px;
+   left: 30px;
+   color: rgb(0, 4, 255);
+   font-style: italic;
+   font-size: 60px;
+ }
+
+ .content-2 h1:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  border-bottom: 4px solid purple;
+  transition: 0.4s linear;
+}
+
+ .content-2 p{
+   position: relative;
+   top: 30px;
+   left: 25px;
+   color: rgb(255, 0, 0);
+   font-style: italic;
+   font-size: 30px;
+ }
+
+ /* qualification */
+ #qualification{
+  box-sizing: border-box;
+  font-family: sans-serif;
+ }
+
+ .container-1{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("bgq.jpg");
+  background-size: cover;
+ }
+
+ .education h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: rgb(255, 0, 85);
+ }
+
+ .education h1::before{
+   content: "";
+   width: 250px;
+   height: 2px;
+   display: inline-block;
+   background: rgb(255, 0, 85);
+   margin: 4px 10px;
+ }
+
+ .education h1::after{
+  content: "";
+  width: 250px;
+  height: 2px;
+  display: inline-block;
+  background: rgb(255, 0, 85);
+  margin: 4px 10px;
+}
+
+.blocks{
+  display: flex;
+  padding-top: 60px; 
+  margin: 20px 40px;
+}
+
+.hsc{
+  display: inline-block;
+  background-image: url("bgg.jpg");
+  width: 310px;
+  height: 400px;
+  margin: 0 35px ;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.hsc:hover{
+  background: transparent;
+  border: 3px solid red;
+  color: red;
+  transform: scale(1.05);
+}
+
+.ssc{
+  display: inline-block;
+  background-image: url("bgg.jpg");
+  width: 310px;
+  height: 400px;
+  margin: 0 35px ;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.ssc:hover{
+  background: transparent;
+  border: 3px solid red;
+  color: red;
+  transform: scale(1.05);
+}
+
+.ug{
+  display: inline-block;
+  background-image: url("bgg.jpg");
+  width: 310px;
+  height: 400px;
+  margin: 0 35px ;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.ug:hover{
+  background: transparent;
+  border: 3px solid red;
+  color: red;
+  transform: scale(1.05);
+}
+
+.blocks .icon{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.b-content h3{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.b-content p{
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* skills */
+#skills{
+  box-sizing: border-box;
+  font-family: sans-serif;
+} 
+
+.skill{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("bgs.jpg");
+  background-size: cover;
+ }
+
+.Hd h1{
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 4px;
+  color: rgb(255, 0, 0)
+}
+
+.Hd h1:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 640px;
+  width: 15%;
+  height: 27%;
+  border-bottom: 5px solid rgb(216, 15, 15);
+}
+
+.box-1{
+  display: flex;
+  padding: 40px;
+  margin: 20px 40px;
+}
+
+.a{
+  position: relative;
+  text-align: center;
+  line-height: 50px;
+  background-image: url("sk.jpg");
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  width: 260px;
+  height: 60px;
+  margin: 0 50px;
+}
+
+.a:hover{
+  transform: scale(1.1);
+}
+
+.Hd-1 h1{
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  color: red;
+}
+
+.Hd-1 h1:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 525px;
+  width: 30%;
+  height: 60%;
+  border-bottom: 5px solid rgb(216, 15, 15);
+}
+
+.box-2{
+  display: flex;
+  padding: 40px;
+  margin: 20px 40px;
+}
+
+
+ /* contact */
+ #contact-me{
+  box-sizing: border-box;
+  font-family: sans-serif;
+ }
+
+ .contact{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("bgc.jpg");
+  background-size: cover;
+ }
+ .contact .content-3{
+  max-width: 800px;
+  text-align: center;
+ }
+
+ .contact .content-3 h1{
+  font-size: 50px;
+  font-weight: 500;
+  color: black;
+ }
+
+ .contact .content-3 p{
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+ }
+
+ .container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+ }
+
+ .container .contactInfo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .container .contactInfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+ }
+
+ .container .contactInfo .box .icon{
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 24px;
+ }
+
+ .container .contactInfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 17px;
+  color: rgb(11, 11, 11);
+  flex-direction: column;
+  font-weight: 400;
+ }
+
+ .container .contactInfo .box .text h3{
+  font-weight: 700;
+  color: rgb(0, 21, 255)
+ }
+
+  .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: rgb(0, 21, 255);
+  transition: all 0.5s ease;
+}
+ .social-links a:hover{
+  background-color: rgb(20, 155, 245);
+}
+
+ .contactForm{
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+ }
+
+ .contactForm h2{
+  font-size: 30px;
+  columns: #333;
+  font-weight: 500;
+ }
+
+ .contactForm .inputBox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+ }
+
+ .contactForm .inputBox input,
+ .contactForm .inputBox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+ }
+
+ .contactForm .inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+ }
+
+ .contactForm .inputBox input:focus ~ span,
+ .contactForm .inputBox input:valid ~ span,
+ .contactForm .inputBox textarea:focus ~ span,
+ .contactForm .inputBox textarea:valid ~ span{
+  color: #e91e62;
+  font-size: 12px;
+  transform: translateY(-20px);
+ }
+
+ .contactForm .inputBox input[type="submit"]{
+  width: 100px;
+  background: rgb(0, 21, 255);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+ }
+
